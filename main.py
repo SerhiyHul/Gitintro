@@ -1,3 +1,5 @@
 def hello(name):
-    print("Hello ", name)
+    return f"Hello {name.capitalize()}"
+
+print(hello('serhiy'))
 
